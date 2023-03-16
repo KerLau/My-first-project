@@ -1,0 +1,11 @@
+@import url(/styles/navbar.css);
+@import url(/styles/header.css);
+@import url(/styles/main.css);
+@import url(../styles/footer.css);
+
+
+* {
+    box-sizing: border-box;
+}
+
+
