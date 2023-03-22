@@ -4,7 +4,7 @@ main {
 }
 .about-section {
     background-color: #333333;
-    height: 80vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     font-size: x-large;
@@ -23,24 +23,30 @@ main {
     border: 3px solid black;
     border-radius: 45%;
 }
-.profile-content {
-    width: 400px;
-    height: 600px;
-    color: aliceblue;
-}
+
+
+
+
 .skills-section{
     background-color: #c7d8c6;
     width: 100%;
-    height: 80vh;
-    display: grid;
-    flex-direction: row;
-    text-align: center;
-}
-.skills-content{
+    min-height: 80vh;
     display: flex;
-    flex-direction: row;
-    color: #ff5035;
+    flex-direction: column;
+    text-align: center;  
 }
+
+.skills-content li {
+    color: #ff5035;
+    display: inline-block;
+    padding: 0px;
+    margin: 10vh;
+    font-weight: 600;
+}
+.fa-brands {
+    font-size: xx-large;
+}
+
 .skills-content li{
     padding: 10px;
 }
@@ -48,6 +54,10 @@ main {
     background-color: #f2c4b8;
     height: 80vh;
 }
+
+
+
+
 .project-section h2 {
     color: #1b227d;
 }
