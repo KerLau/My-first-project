@@ -1,5 +1,5 @@
 .content-footer{
-    background-color: #3b8457;
+    background-color: #f9dac5;
     padding-top: 1rem;
     text-align: center;
 }
@@ -10,4 +10,5 @@
 }
 .content-footer svg{
     padding: 0.5em;
+    color: 5e5278;
 }
