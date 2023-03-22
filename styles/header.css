@@ -1,3 +1,48 @@
+nav {
+    background-color: #3b8457;
+    width: 100%;
+    height: 70px;
+}
+
+nav img {
+    background-size: cover;
+    height: 70px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container li {
+    padding: 1rem;
+    
+}
+a {
+    color: #f3b73e;;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 header {
-    background-color: green;
+    background-color: #614f89;
+    height: 80vh;
+    width: 100%;
+    font-size: xx-large;
+    padding: 50px;
+    display: flex;
+}
+header h1, header p {
+    color: #fea4b9;
+}
+.header-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

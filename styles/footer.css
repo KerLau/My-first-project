@@ -1,3 +1,13 @@
-footer {
-    background-color: yellow;
+.content-footer{
+    background-color: #3b8457;
+    padding-top: 1rem;
+    text-align: center;
+}
+*, :after, :before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content-footer svg{
+    padding: 0.5em;
 }

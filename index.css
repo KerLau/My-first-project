@@ -7,7 +7,7 @@
 * {
     box-sizing: border-box;
 }
-nav {
-    background-color: #3b8457;
+body, html{
+    font-family: Roboto Slab,Arial,Helvetica,sans-serif,serif;
 }
 
