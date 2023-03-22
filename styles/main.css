@@ -15,6 +15,9 @@ main {
 .about-section h2, .about-section p {
     color: #19184d;
 }
+.about-section h2 {
+    font-size: 10vh;
+}
 .profile-picture img {
     width: 20vh;
     height: 20vh;
@@ -42,22 +45,27 @@ main {
     padding: 0px;
     margin: 10vh;
     font-weight: 600;
-}
-.fa-brands {
     font-size: xx-large;
 }
-
-.skills-content li{
-    padding: 10px;
+.skills-content h2 {
+    color: #ff5035;
+    font-size: 10vh;
 }
 .project-section {
     background-color: #f2c4b8;
     height: 80vh;
 }
-
-
-
-
 .project-section h2 {
     color: #1b227d;
+    font-size: 10vh;
+    text-align: center;
+}
+h2 {
+    color: #2c2c2c;
+    background-color: transparent;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
 }

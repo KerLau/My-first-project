@@ -8,7 +8,10 @@
     margin: 0;
     padding: 0;
 }
-.content-footer svg{
+.content-footer svg, .content-footer p{
     padding: 0.5em;
-    color: 5e5278;
+    color: #5e5278
+}
+.icon-contact {
+    font-size: larger;
 }

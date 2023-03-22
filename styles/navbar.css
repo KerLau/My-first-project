@@ -1,3 +1,37 @@
 nav {
-    background-color: red;
+    background-color: #f9dac5;
+    width: 100%;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    width: 180px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: auto;
+}
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.container {
+    display: flex;
+}
+.container ul {
+    display: flex;
+    list-style-type: none;
+}
+.container li {
+    padding: 1rem;
+    justify-content:
+
+}
+a {
+    color: #5e5278;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
 }
