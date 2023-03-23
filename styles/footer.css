@@ -16,3 +16,46 @@
 .icon-contact {
     font-size: 2.5vh;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+  }
+.card {
+    border: 1px solid tomato;
+    border-radius: 1rem;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    margin: 2vh;
+    width: 20vw;
+    height: 20vh;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+  }
+.card-body {
+    background-color: rgba(0, 0, 0, 0.572);
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* opacity: 0; */
+    transform: translateY(100%);
+    transition-duration: 250ms;
+}
+.card:hover .card-body {
+    /* opacity: 1; */
+    transform: translateY(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
