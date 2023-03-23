@@ -7,8 +7,9 @@
 * {
     box-sizing: border-box;
 }
-body, html{
+body{
     font-family: Roboto Slab,Arial,Helvetica,sans-serif,serif;
+    line-height: 1.5;
 }
 h2 {
     color: #2c2c2c;
@@ -29,7 +30,7 @@ h2 {
     transform: scale(1.2);
 }
 
-@media (min-width: 200px) and (max-width: 680px){
+@media (max-width: 680px){
     .container {
         display:block;
     }
@@ -39,11 +40,12 @@ h2 {
     .nav-links {
         font-size: small;
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: start;
     }
     
     .nav-links li {
         padding: 0.5vh;
-        width: 100%;
     }
     .container img {
         padding-left: 3vh;
@@ -70,6 +72,7 @@ h2 {
     }
     .profile-content p {
         width: 100%;
+        lin
     }
     .profile-content p {
         font-size: medium;

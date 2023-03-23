@@ -21,7 +21,6 @@ main {
 }
 .about-section p {
     padding: 6vh;
-    line-height: 4vh;
 }
 .profile{
     display: flex;
