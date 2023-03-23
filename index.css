@@ -52,8 +52,11 @@ h2 {
         justify-content: center;
         text-align: center;
     }
+    header{
+        justify-content: center;
+    }
     .header-content h1 {
-        font-size: xxx-large;
+        font-size: xx-large;
     }
     .header-content p {
         font-size: large;
@@ -90,5 +93,8 @@ h2 {
     }
     .header-content h1{
         font-size: medium;
+    }
+    footer {
+        height: 2vh;
     }
 }
