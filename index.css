@@ -85,4 +85,7 @@ h2 {
     .project-section h2 {
         font-size: xx-large;
     }
+    .header-content h1{
+        font-size: medium;
+    }
 }
