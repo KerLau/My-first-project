@@ -55,14 +55,11 @@ h2 {
     header{
         justify-content: center;
     }
-    .header-content h1 {
+    .header-content h2 {
         font-size: xx-large;
     }
     .header-content p {
         font-size: large;
-    }
-    .about-section h2 {
-        font-size: xx-large;
     }
     .profile {
         display: flex;
