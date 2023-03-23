@@ -28,8 +28,8 @@ main {
 
 }
 .profile-picture img {
-    width: 20vh;
-    height: 20vh;
+    width: 30vh;
+    height: 30vh;
     position: relative;
     top: 10vh;
     border: 3px solid black;

@@ -18,7 +18,7 @@ h2 {
       4px 4px 0px #d5d5d5, 
       7px 7px 0px rgba(0, 0, 0, 0.2);
 }
-@media (min-width: 300px) and (max-width: 680px){
+@media (min-width: 200px) and (max-width: 680px){
     .container {
         display:block;
     }
@@ -29,6 +29,7 @@ h2 {
         font-size: small;
         width: 100%;
     }
+    
     .nav-links li {
         padding: 1.5vh;
         width: 100%;
@@ -47,8 +48,22 @@ h2 {
     .about-section h2 {
         font-size: xx-large;
     }
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-picture {
+        width: 100%;
+        position: relative;
+        top: -50px;
+    }
+    .profile-content p {
+        
+        width: 100%;
+    }
     .profile-content p {
         font-size: medium;
+        width: 100%;
     }
     .skills-content h2 {
         font-size: xx-large;
