@@ -10,15 +10,19 @@ nav img {
     height: 50px;
     object-fit: cover;
     margin-right: auto;
+    display: block;
 }
 .nav-links {
     margin-left: auto;
     display: flex;
-    width: 100%;
     justify-content: end;
 }
 .container {
     display: flex;
+    width: 100%;
+}
+.container a {
+    display: block;
 }
 .container ul {
     display: flex;

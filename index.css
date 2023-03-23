@@ -10,4 +10,53 @@
 body, html{
     font-family: Roboto Slab,Arial,Helvetica,sans-serif,serif;
 }
-
+h2 {
+    color: #2c2c2c;
+    background-color: transparent;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 300px) and (max-width: 680px){
+    .container {
+        display:block;
+    }
+    .container img {
+        width: 100px;
+    }
+    .nav-links {
+        font-size: small;
+        width: 100%;
+    }
+    .nav-links li {
+        padding: 1.5vh;
+        width: 100%;
+    }
+    .container img {
+        padding-left: 3vh;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-content h1 {
+        font-size: xxx-large;
+    }
+    .header-content p {
+        font-size: large;
+    }
+    .about-section h2 {
+        font-size: xx-large;
+    }
+    .profile-content p {
+        font-size: medium;
+    }
+    .skills-content h2 {
+        font-size: xx-large;
+    }
+    .skills-content li {
+        font-size: medium;
+    }
+    .project-section h2 {
+        font-size: xx-large;
+    }
+}

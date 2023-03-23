@@ -6,18 +6,30 @@ header {
     padding: 50px;
     display: flex;
 }
-header h1, header p {
-    color: #fea4b9;
+header p {
+    padding-top: 2em;
+    font-size: 7vh;
+    font-style: italic;
 }
 .header-content {
     justify-content: center;
     align-items: center;
     display: flex;
+    color: #fea4b9;
+    font-weight: bolder;
+    text-align: center;
 }
 header h1 {
     color: #fea4b9;
     letter-spacing: .05em;
-    font-size: 8vh; 
+    font-size: 14vh;
+    background-color: transparent;
+    text-shadow: 
+    4px 4px 0px #7d4aa06d, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16vh;
+    
 }
 .hover {
     display: inline-block;
@@ -29,3 +41,4 @@ header h1 {
 .hover:hover, .hover:focus, .hover:active {
     transform: scale(1.2);
 }
+
