@@ -71,8 +71,8 @@ main {
 
 .project-section {
     background-color: #f2c4b8;
-    height: 80vh;
     padding-top: 3em;
+    padding-bottom: 3em;
 }
 .project-section h2 {
     color: #1b227d;
@@ -80,6 +80,48 @@ main {
     text-align: center;
     padding-bottom: 6vh;
 }
-
-
-
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 100%;
+    gap: 3em;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    width: 20%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.info{
+    display: flex;
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #1b227d;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    margin: 20px;
+}
+.description{
+    bottom: 0;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #1b227d;
+}
