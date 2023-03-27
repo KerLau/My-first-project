@@ -4,6 +4,7 @@ nav {
     min-height: 7vh;
     display: flex;
     align-items: center;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 nav img {
     width: 180px;
